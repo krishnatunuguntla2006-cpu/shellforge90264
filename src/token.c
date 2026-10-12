@@ -29,7 +29,7 @@ void token_add(token_list_t *list,
 static const char *token_name(token_type_t type)
 {
     switch(type)
-{
+    {
         case TOKEN_WORD:       return "WORD";
         case TOKEN_PIPE:       return "PIPE";
         case TOKEN_INPUT:      return "INPUT";
@@ -56,3 +56,4 @@ void token_print(const token_list_t *list)
 
     printf("----------------------------------\n");
 }
+
